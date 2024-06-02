@@ -38,6 +38,48 @@
             .skills-box h3 {
                 color: #e67e22;
             }
+
+            .circle-image {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+
+            .circle-image img {
+                width: 100%;
+                height: auto;
+            }
+
+                .page-section#education {
+        background-color: #f2f2f2; /* Light grey background color for the education section */
+        padding: 2rem 0;
+    }
+
+                .education-card {
+        background-color: #f8f9fa; /* Light grey background */
+        border: 1px solid #dee2e6; /* Light grey border */
+        border-radius: 0.5rem;
+    }
+
+    .education-card .card-body {
+        background-color: #ffffff; /* White background for the card body */
+        padding: 1.5rem;
+        border-left: 5px solid #fd7e14; /* Orange left border */
+    }
+
+    .education-card .card-title {
+        color: #343a40; /* Dark grey text color */
+    }
+
+    .education-card .card-subtitle {
+        color: #6c757d; /* Medium grey text color */
+    }
+
+    .education-card img {
+        border-radius: 0.5rem; /* Rounded corners for the images */
+    }
         </style>
     </head>
     <body id="page-top">
@@ -51,6 +93,7 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                         <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
@@ -79,6 +122,9 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">About Me</h2>
                         <hr class="divider divider-light" />
+                        <div class="circle-image">
+                            <img src="assets/img/me.jpg" alt="Kaushik Thirumavalavan">
+                        </div>
                         <p class="text-white-75 mb-4">I am a student at the Singapore Institute of Technology pursuing a Bachelor of Engineering with Honors in Robotics Systems Engineering. I am passionate about Systems Engineering and aspire to contribute to innovative projects that enhance technology and society.</p>
                         <a class="btn btn-light btn-xl" href="#skills">My Skills</a>
                     </div>
@@ -133,6 +179,49 @@
                 </div>
             </div>
         </section>
+        <!-- Education-->
+        <section class="page-section bg-light-grey" id="education">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Education</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card mb-4 education-card">
+                            <div class="row g-0">
+                                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/sit.png" alt="Singapore Institute of Technology Logo" class="img-fluid" style="max-width: 150px; height: auto;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Bachelor of Engineering (Hons) in Robotics Systems Engineering</h3>
+                                        <h4 class="card-subtitle mb-2 text-muted">Singapore Institute of Technology</h4>
+                                        <p class="text-muted">Aug 2022 – Aug 2026</p>
+                                        <p>Specializing in Systems Engineering with a focus on Robotics. Involved in various projects including 3D food printing and AR/VR applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4 education-card">
+                            <div class="row g-0">
+                                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                    <img src="assets/img/ngee.png" alt="Ngee Ann Polytechnic Logo" class="img-fluid" style="max-width: 150px; height: auto;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Diploma in Chemical and Biomolecular Engineering</h3>
+                                        <h4 class="card-subtitle mb-2 text-muted">Ngee Ann Polytechnic</h4>
+                                        <p class="text-muted">Aug 2017 – May 2020</p>
+                                        <p>Focused on chemical processes and biotechnological applications. Completed projects on sustainable chemical practices and biomolecular research.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
         <!-- Experience-->
         <section class="page-section" id="experience">
             <div class="container px-4 px-lg-5">
