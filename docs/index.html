@@ -17,6 +17,28 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            a {
+                text-decoration: none !important;
+            }
+            .skills-box {
+                background-color: #2c3e50;
+                border-radius: 15px;
+                padding: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                text-align: center;
+                color: white;
+            }
+            .skills-box i {
+                font-size: 2rem;
+                color: #e67e22;
+                margin-bottom: 15px;
+            }
+            .skills-box h3 {
+                color: #e67e22;
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -69,23 +91,23 @@
                 <h2 class="text-center mt-0">Skills</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gear fs-1 text-primary"></i></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="skills-box">
+                            <div class="mb-2"><i class="bi-gear"></i></div>
                             <h3 class="h4 mb-2">Systems Engineering Tools</h3>
-                            <p class="text-muted mb-0">DOORS, MATLAB, Simulink</p>
+                            <p class="text-muted mb-0">Capella Arcadia, SpicySE</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-code-slash fs-1 text-primary"></i></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="skills-box">
+                            <div class="mb-2"><i class="bi-code-slash"></i></div>
                             <h3 class="h4 mb-2">Programming Languages</h3>
                             <p class="text-muted mb-0">Python, C++, Java</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-diagram-3 fs-1 text-primary"></i></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="skills-box">
+                            <div class="mb-2"><i class="bi-diagram-3"></i></div>
                             <h3 class="h4 mb-2">Project Management</h3>
                             <p class="text-muted mb-0">Agile, Scrum, PMP principles</p>
                         </div>
@@ -119,13 +141,14 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <div class="experience-item">
-                            <h3>Intern</h3>
-                            <h4>XYZ Robotics</h4>
-                            <p class="text-muted">June 2022 - August 2022</p>
-                            <p>Assisted in developing robotic systems for automation. Conducted testing and debugging of hardware and software components. Collaborated with senior engineers on design improvements.</p>
+                            <h3>AR/VR Software Engineer Intern</h3>
+                            <h4>Singapore Institute of Technology</h4>
+                            <p class="text-muted">Dec 2023 - Feb 2024</p>
+                            <p>Developed and implemented new features to manipulate 3D objects received from local server into existing production using Babylon.js in React-Vite.</p>
+                            <p>Resolved merge conflicts in Git and conducted bug testing features on pull requests.</p>
+                            <p>Refactored and documented the code base.</p>
                         </div>
                         <hr>
-                        <!-- Repeat similar blocks for additional experiences -->
                     </div>
                 </div>
             </div>
@@ -141,28 +164,23 @@
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <form id="contactForm">
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
-                                <label for="name">Full name</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
-                                <label for="email">Email address</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                            <div class="d-grid"><button class="btn btn-light btn-xl" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-envelope fs-2 mb-3 text-muted"></i>
+                        <div>Email: <a href="mailto:kaushik@example.com" class="text-white">kaushikt2000@gmail.com</a></div>
+                    </div>
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-linkedin fs-2 mb-3 text-muted"></i>
+                        <div>LinkedIn: <a href="https://www.linkedin.com/in/kausht/" class="text-white">linkedin.com/in/kausht</a></div>
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-github fs-2 mb-3 text-muted"></i>
+                        <div>GitHub: <a href="https://github.com/kaushikThirumavalavan" class="text-white">github.com/kaushikThirumavalavan</a></div>
+                    </div>
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
+                        <div>Phone: +65 91677238</div>
                     </div>
                 </div>
             </div>

@@ -44,63 +44,45 @@
                     <hr class="divider" />
                     <img class="img-fluid mb-4" src="assets/img/project1.jpg" alt="3D Food Printing Innovation">
                     
-                    <p><strong>Objective of this project:</strong> To develop a System Design and Prototype for an innovative food printing system. Our goal is to create a system that enhances the presentation, customization, and efficiency of food preparation while considering the needs of various stakeholders, such as restaurants, caterers, and consumers.</p>
+                    <h3>Objective of the Project</h3>
+                    <p><strong>Objective of this project:</strong> To develop a System Design and Prototype for an innovative food printing system. The goal is to create a system that enhances the presentation, customization, and efficiency of food preparation while considering the needs of various stakeholders, such as restaurants, caterers, and consumers.</p>
                     
-                    <h3>Starting Point</h3>
-                    <p>We began by using the project specifications as guidelines. The problem space addresses the “what” of the issue. To better understand the needs in the 3D printed food industry, we studied various other domains where 3D printing food is utilized. This allowed us to analyze different functionalities and the needs those functionalities addressed.</p>
-                    
-                    <h3>Iteration 1: Gathering Functionalities</h3>
-                    <p>After consolidating a list of functionalities and needs from other domains into the problem space, we moved to the solution space. Here, we scrutinized the entire list of functionalities for clashing elements, such as laser food engraving and inkjet printing, which were logically incompatible. These were removed to ensure feasibility.</p>
-                    
-                    <h3>Iteration 2: Exploring Related Domains</h3>
-                    <p>We realized that many functionalities overlapped, hindering innovation. We decided to explore how similar functionalities were used in non-food domains in the hopes of finding alternative ways to creatively deploy these functionalities in the food domain. For instance, upcycling food waste like wheat and grape pomace to 3D print cookies parallels agricultural practices where residues are used to make biofuels. However, this approach had limited success due to domain incompatibility.</p>
-                    
-                    <h3>Iteration 3: Reverse Porting Functionalities</h3>
-                    <p>We reversed our approach by porting existing functionalities in the solution space to other domains. I focused on Pica, a disorder where individuals have strong urges to eat inedible objects. We explored the possibility of using 3D food printing to create edible objects that resemble these urges, particularly to prevent injuries in children.</p>
-                    
-                    <p>However, we faced a significant constraint: the permanent inclusion of Evebot, a handheld 2D inkjet printer, in the solution space. This constraint required us to ensure all functionalities must fit with Evebot's capabilities, prompting us to iterate back to the problem space.</p>
-                    
-                    <h3>Iteration 4: Aligning with Evebot's Capabilities</h3>
-                    <p>We decided to work backwards from the solution space to the problem space, searching for opportunities within Evebot’s capabilities. We identified two potential domains: Inkjet Binding and Blindness. The team split into two to tackle these domains and determine which had the best viability.</p>
-                    
-                    <p>For blindness, we identified a need where individuals struggle to write and fill out forms due to alignment issues. This led to the development of WiYG (Write it Yourself Guide), using a phone camera for feedback. Since Evebot functions as a pen, we aimed to develop a system that provides alignment feedback, making it more accessible for the blind.</p>
-                    
-                    <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <h3>Understanding the Problem Space</h3>
+                    <p>At the beginning of the project, my team and I used the project specifications as our starting point. We first needed to understand the needs in the 3D printed food industry, which led us to explore the problem space. By studying various domains where 3D printing is utilized, we analyzed different functionalities and the needs they addressed. Through my research on "Elderly Foods," I discovered useful functionalities like customizing taste and flavor, which we incorporated into our solution space. Additionally, I explored 3D printed cookies that utilize waste products, providing further insights for our project.</p>
+
+                    <h3>Solution Space Exploration</h3>
+                    <p>After the team consolidated a list of functionalities and needs from other domains into the problem space, we moved to the solution space. Here, the entire list of functionalities was scrutinized for clashing elements, such as laser food engraving and inkjet printing, which were logically clashing. The team removed functionalities that were not feasible.</p>
+                    <div class="text-center">
+                        <img class="img-fluid mb-4" src="assets/img/iteration1.png" alt="Problem space to solution space">
                     </div>
+
+                    <h3>Iterating Between Problem and Solution Spaces</h3>
+                    <p>We realized that many of our functionalities had overlaps, which was not helping with innovation. So, we decided to head back to the problem space and see how similar functionalities were used in domains other than 3D food printing in the hopes of finding an alternative way to creatively deploy the functionality in the food domain. For example, upcycling food waste like wheat and grape pomace to 3D print cookies focuses on reusing food waste. A similar functionality would be in agriculture where agricultural residues are used to make biofuels. However, this approach had little success as the application of the functionalities in other domains did not fit the solution due to domain incompatibility.</p>
                     
-                    <h3>Functionalities Discovered</h3>
+                    <h3>Reverse Engineering Into Other Domains</h3>
+                    <p>Next, we decided to do the reverse: instead of porting functionalities from other domains into the solution space, we ported existing functionalities in the solution space into other domains. I explored several disability domains, including depression, bulimia, obesity, but Pica stood out the most and I dived deeper into it. Pica is a form of compulsive disorder where the user has the strong urge to eat inedible objects. There is a huge range of those objects, and the user can be drawn to them for a combination of reasons, including taste, smell, texture, and appearance. However, there was no proper cure for this and the existing solution was aversion therapy, which is controversial.</p>
+                    
+                    <h3>Addressing Constraints and Finding Opportunities</h3>
+                    <p>A possible opportunity here was to take advantage of the customizable functionalities of 3D food printing to print edible food that resembles the objects the user has urges to eat. Since a common theme of Pica is children getting injured because of eating inedible objects, this could at least solve the direct need of preventing injury to children. This seemed like a strong candidate solution… until we went to the solution space.</p>
+                    
+                    <p>We encountered a big issue: the Evebot, a handheld 2D inkjet printer, was a permanent constraint in the solution space. This posed a huge constraint as it eliminated almost any functionality derived from 3D printing. This unexpected issue prompted us to iterate back to the problem space and change our direction. We established the functionalities of the Evebot as a constraint, meaning any functionalities we port over from the problem space MUST fit with Evebot.</p>
+                    
+                    <img class="img-fluid mb-4" src="assets/img/puzzle.png" alt="Puzzle Piece Fitting">
+                    
+                    <p>We worked backwards from the solution space into the problem space and decided to search for opportunities that were still within reach of Evebot’s capabilities. Two possible domains were identified: Inkjet Binding and Blindness. The team split into two to tackle these domains and determine which had the best viability.</p>
+                    
+                    <h3>Innovations for Accessibility</h3>
+                    <p>For blindness, a need was identified where individuals with blindness struggle to write and fill out forms. This is because they do not know where to align the pen on the paper. An experimental innovation, WiYG (Write it Yourself Guide), was formed, which uses the frontal phone camera to give feedback to the user to align the pen. Since Evebot is also a pen, this is a problem that people with blindness could face with Evebot. The opportunity here would be that since Evebot is a flexible tool, a static solution like an app that tells you where to align the pen on the form would not be applicable. Thus, an idea was born: for Evebot to be more accessible for the blind, it needs to provide feedback about alignment. However, the alignment has to be customizable to complement the flexibility of Evebot.</p>
+                    <p>So, learning from the research, a similar but more adaptable solution can be crafted. By attaching an object recognition camera, it is able to send signals to the microcronteller if it detects a specified object or pattern. Meaning it could be set up to inform the user of proper alignment by hooking up the microcontoller to a mini speaker.</p>
+                    <img class="img-fluid mb-4" src="assets/img/solution.jpg" alt="Solution Sketch">
+                    
+                    <!-- <h3>Functionalities Discovered</h3>
                     <ul>
                         <li><strong>Personalized Nutrition:</strong> Creating meals tailored to individual dietary needs, enhancing nutritional value and user satisfaction.</li>
                         <li><strong>Texture Customization:</strong> Developing foods that are easier to chew and more appealing, particularly for elderly consumers.</li>
                         <li><strong>Sustainability:</strong> Incorporating food waste into new formulations to reduce environmental impact and promote sustainable practices.</li>
                         <li><strong>Shape Retention:</strong> Ensuring that printed food products maintain their designed shapes during and after post-processing for visual appeal and integrity.</li>
-                    </ul>
-                    
-                    <h3>Solution Implementation</h3>
-                    <p>Implementing these solutions required integrating them with Evebot's core capabilities. We used a feasibility filter to check the practical implementation of each functionality, ensuring no logical clashes. The final solution was then applied to other food-related domains to address broader industry gaps.</p>
-                    
-                    <p>The project received positive feedback and was featured in several articles:</p>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a target="_blank" href="#">
-                                <img class="img-portfolio img-responsive" src="assets/img/articles1.PNG" alt="The Verge">
-                            </a>
-                            <p class="text-center">The Verge</p>
-                        </div>
-                        <div class="col-md-4">
-                            <a target="_blank" href="#">
-                                <img class="img-portfolio img-responsive" src="assets/img/articles2.PNG" alt="CNet">
-                            </a>
-                            <p class="text-center">CNet</p>
-                        </div>
-                        <div class="col-md-4">
-                            <a target="_blank" href="#">
-                                <img class="img-portfolio img-responsive" src="assets/img/articles3.PNG" alt="Popular Mechanics">
-                            </a>
-                            <p class="text-center">Popular Mechanics</p>
-                        </div>
-                    </div>
+                    </ul> -->
                     
                     <a class="btn btn-primary btn-xl mt-4" href="index.html#projects">Back to Projects</a>
                 </div>
